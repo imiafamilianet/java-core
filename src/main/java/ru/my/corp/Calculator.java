@@ -112,8 +112,8 @@ public class Calculator {
     @Setter
     @Getter
     static class State {
-        boolean isRun = true;
-        String line;
-        Double operand;
+        private boolean isRun = true;
+        private String line;
+        private Double operand;
     }
 }
